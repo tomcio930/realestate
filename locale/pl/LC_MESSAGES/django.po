@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-12 17:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: .\baza\admin.py:42 .\baza\models.py:37
+msgid "description"
+msgstr "opis"
+
+#: .\baza\models.py:11
+msgid "city"
+msgstr "miasto"
+
+#: .\baza\models.py:12
+msgid "street"
+msgstr "ulica"
+
+#: .\baza\models.py:13
+msgid "post code"
+msgstr "kod pocztowy"
+
+#: .\baza\models.py:17 .\baza\models.py:21 .\baza\models.py:49
+msgid "address"
+msgstr "adres"
+
+#: .\baza\models.py:18
+msgid "addresses"
+msgstr "adresy"
+
+#: .\baza\models.py:22
+msgid "area [m2]"
+msgstr "powierzchnia [m2]"
+
+#: .\baza\models.py:23
+msgid "rent price [pln]"
+msgstr "cena najmu [pln]"
+
+#: .\baza\models.py:24
+msgid "is whole apartment for rent?"
+msgstr "możliwość wynajęcia całości"
+
+#: .\baza\models.py:25 .\baza\models.py:38
+msgid "is free?"
+msgstr "wolne"
+
+#: .\baza\models.py:26 .\baza\models.py:39
+msgid "rent duration"
+msgstr "okres najmu"
+
+#: .\baza\models.py:27
+msgid "decription"
+msgstr "opis"
+
+#: .\baza\models.py:28
+msgid "notes"
+msgstr "uwagi"
+
+#: .\baza\models.py:32 .\baza\models.py:36
+msgid "apartment"
+msgstr "mieszkanie"
+
+#: .\baza\models.py:33
+msgid "apartments"
+msgstr "mieszkania"
+
+#: .\baza\models.py:37
+msgid "Room description. For example big, small, for 2 persons."
+msgstr "Opis pokoju np.: duży, mały, dla 2 osób."
+
+#: .\baza\models.py:40
+msgid "rent agreement scan"
+msgstr "skan umowy najmu"
+
+#: .\baza\models.py:44 .\baza\models.py:48
+msgid "room"
+msgstr "pokój"
+
+#: .\baza\models.py:45
+msgid "rooms"
+msgstr "pokoje"
+
+#: .\baza\models.py:50
+msgid "name"
+msgstr "imię"
+
+#: .\baza\models.py:51
+msgid "surname"
+msgstr "nazwisko"
+
+#: .\baza\models.py:52
+msgid "email"
+msgstr "adres email"
+
+#: .\baza\models.py:53
+msgid "phone"
+msgstr "telefon"
+
+#: .\baza\models.py:57
+msgid "locator"
+msgstr "lokator"
+
+#: .\baza\models.py:58
+msgid "locators"
+msgstr "lokatorzy"
+
+#: .\realestate\templates\admin\base_site.html.py:4
+msgid "Site admin"
+msgstr "Strona administracyjna"
+
+#: .\realestate\templates\admin\base_site.html.py:7
+msgid "Administration Panel"
+msgstr "Panel administracyjny"
+
+#: .\src\django-nested-inlines\nested_inlines\admin.py:205
+#, python-format
+msgid "Add %s"
+msgstr "Dodaj %s"
+
+#: .\src\django-nested-inlines\nested_inlines\admin.py:230
+#, python-format
+msgid "%(name)s object with primary key %(key)r does not exist."
+msgstr "Nie istnieje %(name)s o identyfikatorze %(key)r."
+
+#: .\src\django-nested-inlines\nested_inlines\admin.py:301
+#, python-format
+msgid "Change %s"
+msgstr "Zmień %s"
+
+#: .\src\django-nested-inlines\nested_inlines\templates\admin\edit_inline\stacked.html.py:10
+#: .\src\django-nested-inlines\nested_inlines\templates\admin\edit_inline\tabular.html.py:31
+msgid "View on site"
+msgstr "Widok na stronie"
+
+#: .\src\django-nested-inlines\nested_inlines\templates\admin\edit_inline\stacked.html.py:37
+#: .\src\django-nested-inlines\nested_inlines\templates\admin\edit_inline\tabular.html.py:88
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr "Dodaj kolejny %(verbose_name)s"
+
+#: .\src\django-nested-inlines\nested_inlines\templates\admin\edit_inline\stacked.html.py:38
+#: .\src\django-nested-inlines\nested_inlines\templates\admin\edit_inline\tabular.html.py:89
+msgid "Remove"
+msgstr "Usuń"
+
+#: .\src\django-nested-inlines\nested_inlines\templates\admin\edit_inline\tabular.html.py:18
+msgid "Delete?"
+msgstr "Usunąć?"
